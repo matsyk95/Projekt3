@@ -23,6 +23,12 @@ h1{
 	margin: 150px auto 0 auto;
 	padding: 10px;
 }
+#cz2{
+	position: fixed;
+	right: 15px;
+	bottom: 15px;
+	
+}
 form { 
 	border-style: none;	
 }
