@@ -1,0 +1,27 @@
+html{
+	height: 100%;
+}
+body{
+	color: black;
+	
+	background-image: url("images/1.jpg");
+	background-size:cover;
+	
+}
+h2 {
+text-align:center;
+
+}
+
+input[type=text],input[type=password] {
+	width:95%;
+	height: 82px;
+	margin-top:8px;
+	font-size:42px;
+}
+#login {
+  margin-top:60px;
+	width:100%;
+	padding:20px 40px 25px;
+	
+}
