@@ -1,0 +1,28 @@
+html {height: 100%;}
+body{
+	ont-family: Helvetica, "Open Sans", Arial, Sans-serif;
+	color: black;
+	background-position: center;
+	background-image: url("images/tlo_szare.jpg");
+	background-size:cover;
+	font-size: 15px;
+}
+
+#wypisanedane{
+  color: black;
+	margin-left: 20px;
+}
+h1{
+  font: 36px;
+	text-align:center;
+	
+}
+#cz1{
+	width: 500px;
+	background: rgba(255,255,255,0.6);
+	margin: 150px auto 0 auto;
+	padding: 10px;
+}
+form { 
+	border-style: none;	
+}
