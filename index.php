@@ -1,7 +1,7 @@
 <?php
 include('mob.php');
 include('logowanie.php'); 
-if(isset($_SESSION['login_user'])){
+if(isset($_SESSION['zmienna'])){
 	header("location: profil.php");
 }
 ?>
