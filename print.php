@@ -1,7 +1,7 @@
 <?php
 // Inialize session
 session_start();
-if (!isset($_SESSION['login_user'])) {
+if (!isset($_SESSION['zmienna'])) {
 header('Location: index.php');
 }
 ?><!DOCTYPE html>
