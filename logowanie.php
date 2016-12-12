@@ -18,7 +18,7 @@ if (isset($_POST['submit'])) {
 		$validpass = "zet";
 		
 		if ($username === $validuser && $password === $validpass) {
-			$_SESSION['login_user']=$username; // Initializing Session
+			$_SESSION['zmienna']=$username; // Initializing Session
 			header("location: profile.php"); // Redirecting To Other Page
 		} else {
 			$error = "Hasło jest błedne ";
