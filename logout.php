@@ -1,7 +1,7 @@
 <?php
 session_start();
-	if(isset($_SESSION['login_user'])){
-		unset($_SESSION['login_user']);
+	if(isset($_SESSION['zmienna'])){
+		unset($_SESSION['zmienna']);
 	}
 	if(session_destroy() || session_unset() ) // Destroying All Sessions
 	{
