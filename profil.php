@@ -2,7 +2,7 @@
 // Inialize session
 session_start();
 include('dane.php'); // Includes Login Script
-if (!isset($_SESSION['login_user'])) {
+if (!isset($_SESSION['zmienna'])) {
 header('Location: index.php');
 }
 ?>
